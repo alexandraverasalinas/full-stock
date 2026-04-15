@@ -1,10 +1,8 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 
 body {
   background-color: #FAFAFA;
@@ -13,30 +11,41 @@ body {
 }
 
 
-
 header, footer {
   background-color: #FAFAFA;
   padding: 20px;
   text-align: left;
-  border-bottom: 1px;
-
   border: 1px solid black;
 }
 
 
 
+
+
 footer {
-  border-top: 1px;
   margin-top: 40px;
 }
 
 
+
+nav {
+  padding: 10px 20px;
+  border-bottom: 1px solid black;
+}
+
+nav a {
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+
+
+
 main {
-  max-width: 800px;       
-  margin: 40px auto;      
-  
-  padding: 20px;           
-  border-radius: 8px;     
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 8px;
 }
 
 
@@ -60,8 +69,10 @@ h2 {
 p {
   font-size: 16px;
   margin-bottom: 15px;
-  line-height:1.8;
+  line-height: 1.8;
 }
+
+
 
 
 ul {
@@ -72,8 +83,6 @@ ul {
 li {
   margin-bottom: 10px;
 }
-
-
 
 
 a {
