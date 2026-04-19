@@ -79,7 +79,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* HEADER */
+
 
 .encabezado {
   display: flex;
@@ -106,12 +106,12 @@ a:hover {
   margin-left: auto;
 }
 
-/* quitar linea del nav solo para este diseño */
+
 nav {
   border-bottom: none;
 }
 
-/* CATEGORIAS */
+
 
 .categorias {
   margin-top: 20px;
@@ -119,12 +119,12 @@ nav {
 
 .contenedor-categorias {
   display: flex;
+  flex-direction: column;
   gap: 20px;
-  margin-top: 20px;
 }
 
 .tarjeta {
-  width: 240px;
+  width: 100%;
 }
 
 .imagen {
@@ -149,8 +149,39 @@ nav {
   font-size: 14px;
 }
 
+@media (min-width: 640px) {
 
+  .contenedor-categorias {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
+  .tarjeta {
+    width: 45%;
+  }
+
+}
+@media (min-width: 1024px) {
+
+  main {
+    max-width: 1000px;
+  }
+
+  .contenedor-categorias {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .tarjeta {
+    width: 300px;
+  }
+
+  .imagen {
+    aspect-ratio: 1 / 1;
+  }
+
+}
 
  /* index hero xd*/
  .hero {
