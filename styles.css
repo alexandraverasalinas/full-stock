@@ -392,3 +392,82 @@ h4 {
   }
 
 }
+
+
+
+
+/*  n.p.c. ant f */
+.calidad {
+  margin-top: 40px;
+}
+
+.card-calidad img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+
+   width: 100%;
+  border-radius: 10px;
+}
+
+.titulo-calidad {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contenedor-calidad {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+
+.card-calidad h3 {
+  margin-top: 10px;
+  color: #292929;
+  font-size: 18px;
+}
+
+.card-calidad p {
+  margin-top: 5px;
+  color: #858585;
+  font-size: 12px;
+}
+
+.card-calidad {
+  margin-top: 30px;
+    margin-bottom: 30px;
+  padding: 0 30px;
+  text-align: center;
+}
+
+
+@media (min-width: 640px) {
+
+  .contenedor-calidad {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card-calidad {
+    width: 45%;
+  }
+
+}
+
+
+@media (min-width: 1024px) {
+
+  .contenedor-calidad {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .card-calidad {
+    width: 22%;
+
+  }
+
+}
