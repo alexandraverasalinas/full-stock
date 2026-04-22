@@ -1,0 +1,53 @@
+.calidad {
+  margin-top: 6rem;
+}
+
+.titulo-calidad {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contenedor-calidad {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card-calidad {
+  text-align: center;
+  padding: 0 30px;
+}
+
+.card-calidad img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  margin: auto;
+}
+
+.card-calidad h3 {
+  margin-top: 10px;
+  color: var(--foreground);
+}
+
+.card-calidad p {
+  font-size: 12px;
+}
+
+@media (min-width: 640px) {
+  .contenedor-calidad {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card-calidad {
+    width: 45%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card-calidad {
+    width: 22%;
+  }
+}

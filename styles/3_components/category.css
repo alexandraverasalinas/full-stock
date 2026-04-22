@@ -1,0 +1,46 @@
+.contenedor-categorias {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tarjeta {
+  width: 100%;
+}
+
+.imagen {
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.imagen img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.tarjeta h3 {
+  margin-top: 15px;
+}
+
+@media (min-width: 640px) {
+  .contenedor-categorias {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .tarjeta {
+    width: 45%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contenedor-categorias {
+    justify-content: space-between;
+  }
+
+  .tarjeta {
+    width: 300px;
+  }
+}

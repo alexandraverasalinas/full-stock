@@ -1,0 +1,24 @@
+.hero {
+  height: 400px;
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../../imgs/hero.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenido-hero {
+  text-align: center;
+  color: white;
+}
+
+.boton {
+  background-color: var(--primary);
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: white;
+}
+
+.boton:hover {
+  background-color: var(--primary-hover);
+}

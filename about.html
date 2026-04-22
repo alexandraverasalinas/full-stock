@@ -4,19 +4,32 @@
   <meta charset="UTF-8">
   <title>Quienes somos | Full Stock</title>
   <link rel="stylesheet" href="styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
 
 
-<header>
-  Header
- 
-    <a href="privacy.html">Privacidad</a>
-    <a href="terms.html">Términos</a>
+<header class="encabezado">
+    <a href="index.html" class="logo">
+    <img src="/imgs/logo.png" alt="logo fullstock">
+  </a>
 
+  <nav class="menu">
+    <a href="#">Polos</a>
+    <a href="#">Tazas</a>
+    <a href="#">Stickers</a>
+  </nav>
+
+  <div class="carrito">
+    🛒 
+  </div>
 </header>
+
 
 
   <main>
@@ -55,13 +68,68 @@
 
     <p>
       Gracias por elegir Full Stock. ¡Te invitamos a explorar nuestro 
-      <a href="#">catálogo</a>!
+      <a href="index.html">catálogo</a>!
     </p>
   </main>
 
-  <footer>
-    Footer
-  </footer>
+<footer class="footer">
+  <div class="footer-contenedor">
+
+    <div class="footer-grid">
+
+      <div class="footer-links">
+
+        <div class="footer-seccion">
+          <h3>Tienda</h3>
+          <ul>
+            <li><a href="#">Polos</a></li>
+            <li><a href="#">Tazas</a></li>
+            <li><a href="#">Stickers</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-seccion">
+          <h3>Compañía</h3>
+          <ul>
+           <li><a href="about.html">Quienes somos</a></li>
+            <li><a href="terms.html">Términos y condiciones</a></li>
+            <li><a href="privacy.html">Privacidad</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-seccion">
+          <h3>Conecta</h3>
+          <div class="social">
+  <a href="https://wa.me/" target="_blank">WhatsApp</a>
+<a href="https://facebook.com/" target="_blank">Facebook</a>
+<a href="https://instagram.com/" target="_blank">Instagram</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-seccion newsletter">
+        <h3>Suscríbete a nuestro boletín</h3>
+        <p >Recibe las ultimas ofertas y descuentos en tu correo semanalmente</p>
+
+        <form>
+          <label for="email" class="sr-only">Correo electrónico</label>
+
+          <div class="formulario">
+            <input type="email" id="email" >
+            <button type="submit">Suscribirse</button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+
+    <div class="copyright">
+      Todos los derechos reservados  Full Stock
+    </div>
+
+  </div>
+</footer>
 
 </body>
 </html>
