@@ -3,15 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Protest+Guerrilla&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Protest+Guerrilla&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
 
 :root {
-  --background: #FAFAFA;
-  --foreground: #312F2C;
+  --background: #fafafa;
+  --foreground: #312f2c;
   --primary: #5b5bd6;
   --primary-hover: #483dac;
-  
+
   --text-main: #292929;
   --text-muted: #858585;
   --border: #a3a3a3;
@@ -19,12 +18,17 @@
 
   --radius: 10px;
 
-  --family-text: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --family-text:
+    "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
   --family-heading: var(--family-text);
-  --family-display: 'Protest Guerrilla', 'Protest Strike', 'Stencil', 'Impact', sans-serif;
-  --family-code: 'Source Code Pro', 'Menlo', 'Consolas', 'Monaco', 'Courier New', monospace;
-  --family-emphasis: 'Lora', 'Georgia', 'Palatino Linotype', 'Book Antiqua', 'Times New Roman', serif;
-
+  --family-display:
+    "Protest Guerrilla", "Protest Strike", "Stencil", "Impact", sans-serif;
+  --family-code:
+    "Source Code Pro", "Menlo", "Consolas", "Monaco", "Courier New", monospace;
+  --family-emphasis:
+    "Lora", "Georgia", "Palatino Linotype", "Book Antiqua", "Times New Roman",
+    serif;
 }
 
 body {
@@ -33,17 +37,17 @@ body {
   color: var(--foreground);
 }
 
-header, footer {
+/* header, footer {
   background-color: var(--background);
   padding: 20px;
   border: 1px solid black;
-}
+} */
 
 footer {
   margin-top: 40px;
 }
 
-nav {
+/* nav {
   padding: 10px 20px;
   border-bottom: none;
 }
@@ -51,7 +55,7 @@ nav {
 nav a {
   margin-right: 15px;
   font-weight: bold;
-}
+} */
 
 main {
   max-width: 800px;
@@ -60,23 +64,15 @@ main {
   border-radius: 8px;
 }
 
-
-
-
-
-
-
-
-
 h1 {
-   color: var(--text-main);
+  color: var(--text-main);
   font-size: 36px;
   font-weight: bolder;
   margin-bottom: 20px;
 }
 
 h2 {
-   color: var(--text-main);
+  color: var(--text-main);
   font-size: 24px;
   font-weight: bold;
   margin-top: 30px;
@@ -90,9 +86,8 @@ h4 {
   margin-bottom: 20px;
 }
 
-
 p {
- color: var(--text-muted);
+  color: var(--text-muted);
   font-size: 14px;
   margin-bottom: 15px;
   line-height: 1.8;
@@ -118,11 +113,6 @@ a:hover {
   color: var(--primary-hover);
   text-decoration: underline;
 }
-
-
-
-
-
 
 .encabezado {
   display: flex;
@@ -158,9 +148,6 @@ a:hover {
   font-size: 20px;
 }
 
-
-
-
 .contenedor-categorias {
   display: flex;
   flex-direction: column;
@@ -171,7 +158,6 @@ a:hover {
   margin-top: 20px;
 }
 
-
 .tarjeta {
   width: 100%;
 }
@@ -181,14 +167,13 @@ a:hover {
   aspect-ratio: 1 / 1;
   overflow: hidden;
   border-radius: var(--radius);
-
 }
 
 .imagen img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-   margin-top: 25px;
+  margin-top: 25px;
 }
 
 .tarjeta h3 {
@@ -202,7 +187,6 @@ a:hover {
 }
 
 @media (min-width: 640px) {
-
   .contenedor-categorias {
     flex-direction: row;
     flex-wrap: wrap;
@@ -212,10 +196,8 @@ a:hover {
   .tarjeta {
     width: 45%;
   }
-
 }
 @media (min-width: 1024px) {
-
   main {
     max-width: 1000px;
   }
@@ -232,16 +214,15 @@ a:hover {
   .imagen {
     aspect-ratio: 1 / 1;
   }
-
 }
 
-
-
- /* index hero xd*/
- .hero {
+/* index hero xd*/
+.hero {
   width: 100%;
   height: 400px;
-  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("imgs/hero.jpg");
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("imgs/hero.jpg");
   background-size: cover;
   background-position: center;
 
@@ -249,8 +230,6 @@ a:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
-
-
 }
 
 .contenido-hero {
@@ -268,7 +247,6 @@ a:hover {
   margin-bottom: 20px;
 }
 
-
 .boton {
   background-color: var(--primary);
   color: white;
@@ -281,11 +259,6 @@ a:hover {
   background-color: var(--primary-hover);
   color: white;
 }
-
-
-
-
-
 
 .footer {
   background-color: var(--background);
@@ -311,7 +284,7 @@ a:hover {
 }
 
 .footer-seccion h3 {
-    color: var(--text-muted);
+  color: var(--text-muted);
   font-size: 16px;
   margin-bottom: 10px;
 }
@@ -322,12 +295,12 @@ a:hover {
 }
 
 .footer-seccion li {
-   margin-top: 8px;
+  margin-top: 8px;
   margin-bottom: 8px;
 }
 
 .footer-seccion a {
-    color: var(--text-main);
+  color: var(--text-main);
   text-decoration: none;
   font-size: 12px;
 }
@@ -336,9 +309,7 @@ a:hover {
   color: var(--text-muted);
 }
 
-
 .social a {
-
   margin-right: 10px;
   margin-bottom: 5px;
 }
@@ -353,7 +324,7 @@ a:hover {
   font-size: 14px;
   margin-bottom: 10px;
 
-    color: var(--text-muted);
+  color: var(--text-muted);
   text-decoration: none;
   font-size: 12px;
 }
@@ -374,8 +345,8 @@ a:hover {
 
 .formulario button {
   padding: 10px;
-    background-color: var(--border);
-    color: var(--background);
+  background-color: var(--border);
+  color: var(--background);
   border: none;
   border-radius: 6px;
   font-weight: bold;
@@ -401,22 +372,15 @@ a:hover {
   font-size: 12px;
 }
 
-
-
 @media (min-width: 640px) {
-
   .footer-links {
     flex-direction: row;
     justify-content: space-between;
     gap: 40px;
   }
-
 }
 
-
-
 @media (min-width: 1024px) {
-
   .footer-grid {
     display: flex;
     flex-direction: row;
@@ -447,11 +411,7 @@ a:hover {
   .formulario button {
     flex: 1;
   }
-
 }
-
-
-
 
 /*  n.p.c ant f */
 .calidad {
@@ -463,7 +423,7 @@ a:hover {
   height: 64px;
   object-fit: contain;
 
-   width: 100%;
+  width: 100%;
   border-radius: 10px;
 }
 
@@ -477,8 +437,6 @@ a:hover {
   flex-direction: column;
   gap: 20px;
 }
-
-
 
 .card-calidad h3 {
   margin-top: 10px;
@@ -494,14 +452,12 @@ a:hover {
 
 .card-calidad {
   margin-top: 30px;
-    margin-bottom: 30px;
+  margin-bottom: 30px;
   padding: 0 30px;
   text-align: center;
 }
 
-
 @media (min-width: 640px) {
-
   .contenedor-calidad {
     flex-direction: row;
     flex-wrap: wrap;
@@ -511,12 +467,9 @@ a:hover {
   .card-calidad {
     width: 45%;
   }
-
 }
 
-
 @media (min-width: 1024px) {
-
   .contenedor-calidad {
     flex-wrap: wrap;
     justify-content: space-between;
@@ -524,7 +477,5 @@ a:hover {
 
   .card-calidad {
     width: 22%;
-
   }
-
 }

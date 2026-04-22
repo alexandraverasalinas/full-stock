@@ -1,184 +1,187 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>Full Stock</title>
-  <link rel="stylesheet" href="styles.css"> 
+  <head>
+    <meta charset="UTF-8" />
+    <title>Full Stock</title>
+    <link rel="stylesheet" href="styles.css" />
 
-   <!--<<link rel="stylesheet" href="styles/index.css">!-->
+    <!--<<link rel="stylesheet" href="styles/index.css">!-->
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
 
-<body>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <a href="index.html" class="header__logo">
+          <img src="/imgs/logo.png" alt="logo fullstock" />
+        </a>
 
+        <nav class="header__menu">
+          <a href="#">Polos</a>
+          <a href="#">Tazas</a>
+          <a href="#">Stickers</a>
+        </nav>
 
-
-<header class="encabezado">
-  <a href="index.html" class="logo">
-    <img src="/imgs/logo.png" alt="logo fullstock">
-  </a>
-
-  <nav class="menu">
-    <a href="#">Polos</a>
-    <a href="#">Tazas</a>
-    <a href="#">Stickers</a>
-  </nav>
-
-  <div class="carrito">
-    🛒 
-  </div>
-</header>
-
-
-
+        <div class="header__carrito"><img src="/imgs/cart.svg" alt="" /></div>
+      </div>
+    </header>
+    <main>
       <section class="hero">
-  <div class="contenido-hero">
-    <h4>Nuevos productos disponibles</h4>
-    <p style="color: white;">Un pequeño lote de increíbles productos acaba de llegar. Agrega tus favoritos al carrito antes que se agoten.</p>
-    <a href="#" class="boton">Compra ahora</a>
-  </div>
-</section>
-
-
-<main>
-
-
-
-  
-
-  <section class="categorias">
-    <h1>Compra por categoría</h1>
-    <p>Explora nuestra selección de productos especialmente diseñados para desarrolladores web.<br>
-         Encuentra lo que buscas navegando por nuestras categorías de polos, tazas, stickers y más.</p>
-
-    <div class="contenedor-categorias">
-
-      <div class="tarjeta">
-        <div class="imagen">
-          <img src="imgs/polo.jpg" alt="Polos">
+        <div class="contenido-hero">
+          <h2>Nuevos productos disponibles</h2>
+          <p>
+            Un pequeño lote de increíbles productos acaba de llegar. Agrega tus
+            favoritos al carrito antes que se agoten.
+          </p>
+          <a href="#" class="boton">Compra ahora</a>
         </div>
-        <h3>Polos</h3>
-        <p>Polos exclusivos con diseños que todo desarrollador querrá lucir. Ideales para llevar el código a donde vayas.
-</p>
-      </div>
+      </section>
 
-      <div class="tarjeta">
-        <div class="imagen">
-          <img src="imgs/taza.jpg" alt="Tazas">
+      <section class="categorias">
+        <h2>Compra por categoría</h2>
+        <p>
+          Explora nuestra selección de productos especialmente diseñados para
+          desarrolladores web.<br />
+          Encuentra lo que buscas navegando por nuestras categorías de polos,
+          tazas, stickers y más.
+        </p>
+
+        <div class="contenedor-categorias">
+          <div class="tarjeta">
+            <div class="imagen">
+              <img src="imgs/polo.jpg" alt="Polos" />
+            </div>
+            <h3>Polos</h3>
+            <p>
+              Polos exclusivos con diseños que todo desarrollador querrá lucir.
+              Ideales para llevar el código a donde vayas.
+            </p>
+          </div>
+
+          <div class="tarjeta">
+            <div class="imagen">
+              <img src="imgs/taza.jpg" alt="Tazas" />
+            </div>
+            <h3>Tazas</h3>
+            <p>
+              Tazas que combinan perfectamente con tu cafe matutito y tu pasión
+              por la programación. ¡Empieza el dia con estilo!
+            </p>
+          </div>
+
+          <div class="tarjeta">
+            <div class="imagen">
+              <img src="imgs/stickers.jpg" alt="Stickers" />
+            </div>
+            <h3>Stickers</h3>
+            <p>
+              Personaliza tu espacio de trabajo con nuestros stickers únicos y
+              muestra tu amor por el desarrollo web
+            </p>
+          </div>
         </div>
-        <h3>Tazas</h3>
-        <p>Tazas que combinan perfectamente con tu cafe matutito y tu pasión por la programación. ¡Empieza el dia con estilo!</p>
-      </div>
+      </section>
 
-      <div class="tarjeta">
-        <div class="imagen">
-          <img src="imgs/stickers.jpg" alt="Stickers">
+      <section class="calidad">
+        <h2 class="titulo-calidad">Nuestra Promesa de Calidad</h2>
+
+        <div class="contenedor-calidad">
+          <div class="card-calidad">
+            <img src="/imgs/npc1.jpg" />
+            <h3>Entrega rápida</h3>
+            <p>
+              Recibe tus productos en tiempo récord, directo a tu puerta, para
+              que puedas disfrutar de ellos cuanto antes.
+            </p>
+          </div>
+
+          <div class="card-calidad">
+            <img src="/imgs/npc2.jpg" />
+            <h3>Satisfacción Garantizada</h3>
+            <p>
+              Tu felicidad es nuestra prioridad. Si no estás 100% satisfecho,
+              estamos aquí para ayudarte con cambios o devoluciones.
+            </p>
+          </div>
+
+          <div class="card-calidad">
+            <img src="/imgs/npc3.jpg" />
+            <h3>Materiales de Alta Calidad</h3>
+            <p>
+              Nos aseguramos de que todos nuestros productos estén hechos con
+              materiales de la más alta calidad.
+            </p>
+          </div>
+
+          <div class="card-calidad">
+            <img src="/imgs/npc4.jpg" />
+            <h3>Diseños Exclusivos</h3>
+            <p>
+              Cada producto está diseñado pensando en los desarrolladores, con
+              estilos únicos que no encontrarás en ningún otro lugar.
+            </p>
+          </div>
         </div>
-        <h3>Stickers</h3>
-        <p>Personaliza tu espacio de trabajo con nuestros stickers únicos y muestra tu amor por el desarrollo web
-</p>
-      </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-contenedor">
+        <div class="footer-grid">
+          <div class="footer-links">
+            <div class="footer-seccion">
+              <h3>Tienda</h3>
+              <ul>
+                <li><a href="#">Polos</a></li>
+                <li><a href="#">Tazas</a></li>
+                <li><a href="#">Stickers</a></li>
+              </ul>
+            </div>
 
-    </div>
-  </section>
+            <div class="footer-seccion">
+              <h3>Compañía</h3>
+              <ul>
+                <li><a href="about.html">Quienes somos</a></li>
+                <li><a href="terms.html">Términos y condiciones</a></li>
+                <li><a href="privacy.html">Privacidad</a></li>
+              </ul>
+            </div>
 
-</main>
+            <div class="footer-seccion">
+              <h3>Conecta</h3>
+              <div class="social">
+                <a href="https://wa.me/" target="_blank">WhatsApp</a>
+                <a href="https://facebook.com/" target="_blank">Facebook</a>
+                <a href="https://instagram.com/" target="_blank">Instagram</a>
+              </div>
+            </div>
+          </div>
 
-<section class="calidad">
-  <h2 class="titulo-calidad">Nuestra Promesa de Calidad</h2>
+          <div class="footer-seccion newsletter">
+            <h3>Suscríbete a nuestro boletín</h3>
+            <p>
+              Recibe las ultimas ofertas y descuentos en tu correo semanalmente
+            </p>
 
-  <div class="contenedor-calidad">
+            <form>
+              <label for="email" class="sr-only">Correo electrónico</label>
 
-    <div class="card-calidad">
-      <img src="/imgs/npc1.jpg">
-      <h3>Entrega rápida</h3>
-      <p>Recibe tus productos en tiempo récord, directo a tu puerta, para que puedas disfrutar de ellos cuanto antes.</p>
-    </div>
-
-    <div class="card-calidad">
-      <img src="/imgs/npc2.jpg">
-      <h3>Satisfacción Garantizada</h3>
-      <p>Tu felicidad es nuestra prioridad. Si no estás 100% satisfecho, estamos aquí para ayudarte con cambios o devoluciones.</p>
-    </div>
-
-    <div class="card-calidad">
-      <img src="/imgs/npc3.jpg">
-      <h3>Materiales de Alta Calidad</h3>
-      <p>Nos aseguramos de que todos nuestros productos estén hechos con materiales de la más alta calidad.</p>
-    </div>
-
-    <div class="card-calidad">
-      <img src="/imgs/npc4.jpg">
-      <h3>Diseños Exclusivos</h3>
-      <p>Cada producto está diseñado pensando en los desarrolladores, con estilos únicos que no encontrarás en ningún otro lugar.</p>
-    </div>
-
-  </div>
-</section>
-
-
-
-<footer class="footer">
-  <div class="footer-contenedor">
-
-    <div class="footer-grid">
-
-      <div class="footer-links">
-
-        <div class="footer-seccion">
-          <h3>Tienda</h3>
-          <ul>
-            <li><a href="#">Polos</a></li>
-            <li><a href="#">Tazas</a></li>
-            <li><a href="#">Stickers</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-seccion">
-          <h3>Compañía</h3>
-          <ul>
-           <li><a href="about.html">Quienes somos</a></li>
-            <li><a href="terms.html">Términos y condiciones</a></li>
-            <li><a href="privacy.html">Privacidad</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-seccion">
-          <h3>Conecta</h3>
-          <div class="social">
-  <a href="https://wa.me/" target="_blank">WhatsApp</a>
-<a href="https://facebook.com/" target="_blank">Facebook</a>
-<a href="https://instagram.com/" target="_blank">Instagram</a>
+              <div class="formulario">
+                <input type="email" id="email" />
+                <button type="submit">Suscribirse</button>
+              </div>
+            </form>
           </div>
         </div>
 
+        <div class="copyright">Todos los derechos reservados Full Stock</div>
       </div>
-
-      <div class="footer-seccion newsletter">
-        <h3>Suscríbete a nuestro boletín</h3>
-        <p >Recibe las ultimas ofertas y descuentos en tu correo semanalmente</p>
-
-        <form>
-          <label for="email" class="sr-only">Correo electrónico</label>
-
-          <div class="formulario">
-            <input type="email" id="email" >
-            <button type="submit">Suscribirse</button>
-          </div>
-        </form>
-      </div>
-
-    </div>
-
-    <div class="copyright">
-      Todos los derechos reservados  Full Stock
-    </div>
-
-  </div>
-</footer>
-
-</body>
+    </footer>
+  </body>
 </html>
