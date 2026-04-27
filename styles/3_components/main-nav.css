@@ -1,0 +1,16 @@
+.main-nav {
+  display: none;
+}
+
+@media (min-width: 40rem) {
+  .main-nav {
+    display: flex;
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 64rem) {
+  .main-nav {
+    gap: 2rem;
+  }
+}

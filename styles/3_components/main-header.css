@@ -1,34 +1,35 @@
-.header {
+.main-header {
   border-bottom: 1px solid var(--border);
 }
 
-.header__container {
+.main-header__container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
-.header__logo {
+.main-header__logo {
   flex: 1;
 }
 
-.header__logo img {
+.main-header__logo img {
   height: 3rem;
 }
 
-.header__menu {
+.main-nav {
   flex: 1;
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 2rem;
 }
 
-.header__menu a {
-  color: var(--text-muted);
-  text-decoration: none;
-}
-
-.header__carrito {
+.main-header__actions {
   flex: 1;
   display: flex;
   justify-content: flex-end;
+}
+
+.main-header__cart {
+  width: 24px;
+  height: 24px;
 }

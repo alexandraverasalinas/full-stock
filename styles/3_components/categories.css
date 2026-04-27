@@ -1,0 +1,38 @@
+.categories__header {
+  text-align: left;
+  margin-bottom:2rem;
+  margin-top: 2rem;
+}
+
+.categories__subtitle {
+  color: var(--text-muted);
+  margin-top: 0.5rem;
+}
+
+.categories__list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media (min-width: 40rem) {
+  .categories__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .category {
+    width: 45%;
+  }
+}
+
+@media (min-width: 64rem) {
+  .categories__list {
+    justify-content: space-between;
+  }
+
+  .category {
+    width: 300px;
+  }
+}

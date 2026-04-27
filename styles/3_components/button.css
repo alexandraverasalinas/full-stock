@@ -1,0 +1,41 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
+  height: 3.2rem;
+  width: 12rem;
+  padding: 0.375rem 0.75rem;
+
+  border-radius: var(--radius);
+  border: none;
+
+  font-size: 1rem;
+  font-weight: 500;
+
+  color: var(--primary-foreground);
+  background-color: var(--primary-background);
+
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--primary-background-hover);
+}
+
+.button:focus {
+  outline: 2px solid var(--primary-background-hover);
+  outline-offset: 2px;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.button svg {
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+}
