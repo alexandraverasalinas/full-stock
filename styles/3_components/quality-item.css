@@ -1,6 +1,6 @@
 .quality {
-  padding-top: 3rem;
-  padding-bottom: 6rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .quality__header {
@@ -31,8 +31,15 @@
 .quality-item__icon {
   width: 64px;
   height: 64px;
-  object-fit: contain;
+  color: #342828;
 }
+
+@media (prefers-color-scheme: dark) {
+  .quality-item__icon {
+    color: #ffffff;
+  }
+}
+
 
 .quality-item__title {
   font-size: 0.9rem;
@@ -42,6 +49,10 @@
   align-items: center;
   justify-content: center;
 }
+
+
+
+
 
 .quality-item__description {
   font-size: 0.8rem;
