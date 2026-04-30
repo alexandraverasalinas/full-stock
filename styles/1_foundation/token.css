@@ -26,6 +26,10 @@
   --family-emphasis: 'Lora', serif;
 }
 
+
+
+
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0f0f10;
@@ -46,4 +50,8 @@
 
     --border: #3f3f46;
   }
+
 }
+
+
+

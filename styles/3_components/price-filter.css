@@ -1,0 +1,41 @@
+.price-filter {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.price-filter__title {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.price-filter__inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+
+.price-filter__group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.price-filter__label {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.price-filter__input {
+  width: 130px;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background-color: transparent;
+  color: var(--foreground);
+  font-size: 0.9rem;
+}
+
+.price-filter__button {
+  width: 100%;
+}

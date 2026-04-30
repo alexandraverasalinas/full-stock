@@ -11,6 +11,9 @@
   border-radius: var(--radius);
   border: none;
 
+
+  
+
   font-size: 1rem;
   font-weight: 500;
 
@@ -18,7 +21,15 @@
   background-color: var(--primary-background);
 
   cursor: pointer;
+
+
+
 }
+
+
+
+
+
 
 .button:hover {
   background-color: var(--primary-background-hover);
@@ -34,8 +45,17 @@
   pointer-events: none;
 }
 
+
+
+
+
 .button svg {
   width: 1rem;
   height: 1rem;
   flex-shrink: 0;
 }
+
+
+
+
+

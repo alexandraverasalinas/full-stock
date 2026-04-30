@@ -7,6 +7,10 @@
 @import url(2_layout/container.css);
 @import url(2_layout/section.css);
 @import url(2_layout/section-sm.css);
+@import url(2_layout/vertical-page-layout.css);
+@import url(2_layout/sidebar-layout.css);
+
+
 
 /* 3. Components */
 @import url(3_components/main-header.css);
@@ -26,5 +30,15 @@
 
 @import url(3_components/content.css);
 
+
+@import url(3_components/price-filter.css);
+@import url(3_components/product.css);
+@import url(3_components/products-grid.css);
+
+
+
 /* 4. Utilities */
 @import url(4_utilities/utilities.css);
+
+
+

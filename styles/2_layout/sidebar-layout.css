@@ -1,0 +1,12 @@
+.sidebar-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+@media (min-width: 64rem) {
+  .sidebar-layout {
+    grid-template-columns: 280px 1fr;
+  }
+}
