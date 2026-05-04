@@ -57,5 +57,11 @@
 
 
 
+.button--secondary {
+  color: var(--secondary-foreground);
+  background-color: var(--secondary-background);
+}
 
-
+.button--secondary:hover {
+  background-color: var(--secondary-background-hover);
+}

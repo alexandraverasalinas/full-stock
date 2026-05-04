@@ -1,6 +1,6 @@
 .categories__header {
   text-align: left;
-  margin-bottom:2rem;
+  margin-bottom: 2rem;
   margin-top: 2rem;
 }
 
@@ -15,32 +15,9 @@
   gap: 2rem;
 }
 
-
-
-@media (min-width: 40rem) {
-  .categories__list {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .category {
-    width: 45%;
-  }
-
-}
-
-
-
-
-
 @media (min-width: 64rem) {
   .categories__list {
+    flex-direction: row;
     justify-content: space-between;
-  }
-
-
-  .category {
-    width: 300px;
   }
 }

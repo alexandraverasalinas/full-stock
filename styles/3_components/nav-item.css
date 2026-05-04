@@ -1,12 +1,14 @@
 .nav-item {
   text-decoration: none;
   color: var(--text-muted);
-  padding: 0.5rem 0.75rem;
-  border-radius: var(--radius);
+  padding: 0.5rem 0.5rem;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
   transition: 0.2s;
 }
 
 .nav-item:hover {
-  background-color: #b6b6e6;
+  background-color: #9595e3;
   color: var(--foreground);
 }

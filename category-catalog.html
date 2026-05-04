@@ -13,23 +13,26 @@
 
 <body class="vertical-page-layout">
 
-  <header class="main-header">
-    <div class="container main-header__container">
+<header class="main-header">
+  <div class="container main-header__container">
+    <div class="main-header__top">
       <a href="index.html" class="main-header__logo">
         <img src="/imgs/logo.png" alt="logo fullstock" />
       </a>
-      <nav class="main-nav">
-        <a href="#" class="nav-item">Polos</a>
-        <a href="#" class="nav-item">Tazas</a>
-        <a href="#" class="nav-item">Stickers</a>
-      </nav>
       <div class="main-header__actions">
-          <svg class="main-header__cart" width="24" height="24">
-            <use href="/imgs/icons.svg#cart"></use>
-          </svg>
+        <svg class="main-header__cart" width="24" height="24">
+          <use href="/imgs/icons.svg#cart"></use>
+        </svg>
       </div>
     </div>
-  </header>
+
+    <nav class="main-nav">
+      <a href="category-catalog.html" class="nav-item">Polos</a>
+      <a href="#" class="nav-item">Tazas</a>
+      <a href="#" class="nav-item">Stickers</a>
+    </nav>
+  </div>
+</header>
 
 
 
@@ -55,11 +58,11 @@
                 <input type="number" class="price-filter__input" placeholder="" />
               </div>
             </div>
-<button class="button price-filter__button">Filtrar Productos</button>          </div>
+            <button class="button button--secondary price-filter__button">Filtrar Productos</button>          </div>
         </aside>
 
         <div class="products-grid">
-          <a href="#" class="product">
+          <a href="product-detail.html" class="product">
             <div class="product__image">
               <img src="imgs/polo1.jpg"  />
             </div>

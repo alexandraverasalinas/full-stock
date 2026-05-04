@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Polo React - Full Stock</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/index.css" />
+</head>
+
+<body class="vertical-page-layout">
+
+  <header class="main-header">
+    <div class="container main-header__container">
+      <div class="main-header__top">
+        <a href="index.html" class="main-header__logo">
+          <img src="/imgs/logo.png" alt="logo fullstock" />
+        </a>
+        <div class="main-header__actions">
+          <svg class="main-header__cart" width="24" height="24">
+            <use href="/imgs/icons.svg#cart"></use>
+          </svg>
+        </div>
+      </div>
+
+      <nav class="main-nav">
+        <a href="category-catalog.html" class="nav-item">Polos</a>
+        <a href="#" class="nav-item">Tazas</a>
+        <a href="#" class="nav-item">Stickers</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section class="product-detail">
+        <div class="product-detail__layout">
+
+          <div class="product-detail__image">
+            <img src="imgs/polo1.jpg" alt="Polo React" />
+          </div>
+
+          <div class="product-detail__info">
+            <h1 class="product-detail__title">Polo React</h1>
+            <p class="product-detail__price">$20</p>
+            <p class="product-detail__description">
+              Viste tu pasión por React con estilo y comodidad en cada línea de código.
+            </p>
+
+            <button class="button product-detail__button">Agregar al Carrito</button>
+
+            <hr class="product-detail__divider" />
+
+            <h2 class="product-detail__features-title">Características</h2>
+            <ul class="product-detail__features-list">
+              <li>Estampado resistente que mantiene sus colores vibrantes lavado tras lavado.</li>
+              <li>Hecho de algodón suave que asegura comodidad y frescura.</li>
+              <li>Costuras reforzadas para una mayor durabilidad.</li>
+              <li>Corte moderno que se adapta perfectamente al cuerpo.</li>
+            </ul>
+          </div>
+
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="main-footer">
+    <div class="container">
+      <div class="main-footer__grid">
+        <div class="main-footer__links">
+          <div class="main-footer__section">
+            <h3 class="main-footer__title">Tienda</h3>
+            <ul class="main-footer__list">
+              <li class="main-footer__item"><a href="#" class="main-footer__link">Polos</a></li>
+              <li class="main-footer__item"><a href="#" class="main-footer__link">Tazas</a></li>
+              <li class="main-footer__item"><a href="#" class="main-footer__link">Stickers</a></li>
+            </ul>
+          </div>
+          <div class="main-footer__section">
+            <h3 class="main-footer__title">Compañía</h3>
+            <ul class="main-footer__list">
+              <li class="main-footer__item"><a href="#" class="main-footer__link">Quiénes somos</a></li>
+              <li class="main-footer__item"><a href="#" class="main-footer__link">Términos</a></li>
+              <li class="main-footer__item"><a href="#" class="main-footer__link">Privacidad</a></li>
+            </ul>
+          </div>
+          <div class="main-footer__section">
+            <h3 class="main-footer__title">Conecta</h3>
+            <ul class="main-footer__list">
+              <li class="main-footer__item"><a href="#" class="main-footer__link" target="_blank">WhatsApp</a></li>
+              <li class="main-footer__item"><a href="#" class="main-footer__link" target="_blank">Facebook</a></li>
+              <li class="main-footer__item"><a href="#" class="main-footer__link" target="_blank">Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="main-footer__newsletter">
+          <h3 class="main-footer__title">Suscríbete</h3>
+          <p class="main-footer__text">Recibe ofertas y descuentos en tu correo semanalmente.</p>
+          <form class="main-footer__form">
+            <input type="email" class="main-footer__input" placeholder="Correo electrónico" />
+            <button class="button main-footer__button">Suscribirse</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="main-footer__copyright">
+        Derechos reservados © Full Stock
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
