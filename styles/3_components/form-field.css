@@ -1,0 +1,21 @@
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+
+.form-field__hint {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+
+}
+
+
+
+.form-field__error {
+  font-size: 0.75rem;
+  color: #aa1212;
+
+}

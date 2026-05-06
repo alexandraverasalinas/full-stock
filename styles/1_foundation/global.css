@@ -11,4 +11,50 @@ body {
 
 input, select, textarea {
   width: 100%;
+
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background-color: transparent;
+  color: var(--foreground);
+  font-size: 0.875rem;
 }
+
+
+
+
+label {
+
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+
+}
+
+
+
+input:focus,select:focus,textarea:focus {
+  outline: 2px solid var(--primary-background);
+  outline-offset: 2px;
+  border-color: var(--primary-background);
+
+}
+
+input:disabled,select:disabled,textarea:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+
+}
+
+
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+  accent-color: var(--primary-background);
+
+}
+
+
+

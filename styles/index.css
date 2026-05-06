@@ -36,6 +36,10 @@
 @import url(3_components/products-grid.css);
 @import url(3_components/product-detail.css);
 
+@import url(3_components/form-field.css);
+@import url(3_components/radio-item.css);
+@import url(3_components/checkout-form.css);
+
 
 /* 4. Utilities */
 @import url(4_utilities/utilities.css);

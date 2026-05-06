@@ -1,0 +1,32 @@
+.checkout-form {
+  padding: 2rem 0;
+  max-width: 600px;
+
+  margin-inline: auto;
+}
+
+.checkout-form__section {
+  margin-bottom: 2rem;
+}
+
+.checkout-form__section-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+
+}
+
+.checkout-form__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.checkout-form__full {
+  grid-column: 1 / -1;
+}
+
+.checkout-form__button {
+  width: 100%;
+  margin-top: 1rem;
+}
