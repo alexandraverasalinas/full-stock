@@ -5,6 +5,9 @@
   margin-inline: auto;
 }
 
+
+
+
 .checkout-form__section {
   margin-bottom: 2rem;
 }
@@ -15,6 +18,8 @@
   margin-bottom: 1.5rem;
 
 }
+
+
 
 .checkout-form__grid {
   display: grid;
@@ -30,3 +35,4 @@
   width: 100%;
   margin-top: 1rem;
 }
+

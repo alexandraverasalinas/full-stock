@@ -5,10 +5,13 @@
   align-self: stretch;
   display: flex;
   align-items: center;
-  transition: 0.2s;
+  transition: background-color 200ms;
 }
 
+
+
+
 .nav-item:hover {
-  background-color: #9595e3;
+  background-color: #b6b6e6;
   color: var(--foreground);
 }
