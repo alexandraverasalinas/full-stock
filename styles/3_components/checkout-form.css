@@ -1,25 +1,83 @@
-.checkout-form {
+.checkout__layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
   padding: 2rem 0;
-  max-width: 600px;
-
-  margin-inline: auto;
 }
 
+.checkout__summary {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  align-self: start;
+}
 
+.checkout__summary-title {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 1.25rem;
+  border-bottom: 1px solid var(--border);
+}
 
+.checkout__summary-item {
+  display: grid;
+  grid-template-columns: 56px 1fr auto;
+  gap: 0.75rem;
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid var(--border);
+  align-items: center;
+}
+
+.checkout__summary-item-image {
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.checkout__summary-item-image img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+}
+
+.checkout__summary-item-title {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.checkout__summary-item-qty {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.checkout__summary-item-price {
+  font-size: 0.875rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.checkout__summary-total {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.checkout-form {
+  display: flex;
+  flex-direction: column;
+}
 
 .checkout-form__section {
   margin-bottom: 2rem;
 }
 
 .checkout-form__section-title {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 600;
-  margin-bottom: 1.5rem;
-
+  margin-bottom: 1.25rem;
 }
-
-
 
 .checkout-form__grid {
   display: grid;
@@ -33,6 +91,30 @@
 
 .checkout-form__button {
   width: 100%;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
+@media (min-width: 40rem) {
+  .checkout__layout {
+    grid-template-columns: 1fr;
+    max-width: 560px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 64rem) {
+  .checkout__layout {
+    grid-template-columns: 1fr 400px;
+    max-width: 100%;
+    margin: 0;
+    align-items: start;
+  }
+
+  .checkout__layout > .checkout__summary {
+    order: 2;
+  }
+
+  .checkout__layout > .checkout-form {
+    order: 1;
+  }
+}

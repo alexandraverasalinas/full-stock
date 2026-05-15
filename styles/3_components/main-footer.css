@@ -69,11 +69,6 @@
   color: var(--foreground);
 }
 
-.main-footer__button {
-  padding: 0 1rem;
-  border-radius: 8px;
-}
-
 .main-footer__copyright {
   text-align: center;
   margin-top: 4rem;

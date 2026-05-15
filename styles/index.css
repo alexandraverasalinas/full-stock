@@ -41,6 +41,10 @@
 @import url(3_components/checkout-form.css);
 
 
+@import url(3_components/cart.css);
+@import url(3_components/order-confirmation.css);
+
+
 /* 4. Utilities */
 @import url(4_utilities/utilities.css);
 

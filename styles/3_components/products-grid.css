@@ -1,13 +1,15 @@
+/* Explorar la opción auto-fill o auto-fit */
+
 .products-grid {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 32px;
-  padding: 1.5rem;
 }
 
 
 
-@media (min-width: 40rem) {
+
+/* @media (min-width: 40rem) {
   .products-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -20,5 +22,5 @@
   .products-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-}
+} */
 
